@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/xSammyKang/shopapp.git/static/css/main.f175b12d.css",
+    "main.js": "/xSammyKang/shopapp.git/static/js/main.4c4ce38f.js",
+    "static/js/787.cda612ba.chunk.js": "/xSammyKang/shopapp.git/static/js/787.cda612ba.chunk.js",
+    "static/media/shop_icon.png": "/xSammyKang/shopapp.git/static/media/shop_icon.f8e0784ed04429d48209.png",
+    "index.html": "/xSammyKang/shopapp.git/index.html",
+    "main.f175b12d.css.map": "/xSammyKang/shopapp.git/static/css/main.f175b12d.css.map",
+    "main.4c4ce38f.js.map": "/xSammyKang/shopapp.git/static/js/main.4c4ce38f.js.map",
+    "787.cda612ba.chunk.js.map": "/xSammyKang/shopapp.git/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f175b12d.css",
+    "static/js/main.4c4ce38f.js"
+  ]
+}

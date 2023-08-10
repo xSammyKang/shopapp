@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//xsammykang.github.io/shopapp/static/css/main.f175b12d.css",
-    "main.js": "//xsammykang.github.io/shopapp/static/js/main.9d1d4df8.js",
-    "static/js/787.cda612ba.chunk.js": "//xsammykang.github.io/shopapp/static/js/787.cda612ba.chunk.js",
-    "static/media/shop_icon.png": "//xsammykang.github.io/shopapp/static/media/shop_icon.f8e0784ed04429d48209.png",
-    "index.html": "//xsammykang.github.io/shopapp/index.html",
-    "main.f175b12d.css.map": "//xsammykang.github.io/shopapp/static/css/main.f175b12d.css.map",
-    "main.9d1d4df8.js.map": "//xsammykang.github.io/shopapp/static/js/main.9d1d4df8.js.map",
-    "787.cda612ba.chunk.js.map": "//xsammykang.github.io/shopapp/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/shopapp/static/css/main.f175b12d.css",
+    "main.js": "/shopapp/static/js/main.063d27cd.js",
+    "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
+    "static/media/shop_icon.png": "/shopapp/static/media/shop_icon.f8e0784ed04429d48209.png",
+    "index.html": "/shopapp/index.html",
+    "main.f175b12d.css.map": "/shopapp/static/css/main.f175b12d.css.map",
+    "main.063d27cd.js.map": "/shopapp/static/js/main.063d27cd.js.map",
+    "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f175b12d.css",
-    "static/js/main.9d1d4df8.js"
+    "static/js/main.063d27cd.js"
   ]
 }

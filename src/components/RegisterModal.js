@@ -54,7 +54,7 @@ export default class RegisterModal extends Component{
                             />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="password">Password</Label>
+                            <Label for="password">Password (8+ alphanumeric characters, no common terms)</Label>
                             <Input
                             type="password"
                             name="password"

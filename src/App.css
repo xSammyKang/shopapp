@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-part-2 {
+  font-size: 50px;
+  background-color: rgba(52, 52, 52, alpha);
+  font-weight: bolder;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(52, 52, 52, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3); 
+}
+
+.card {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  background-color: #b2c7e1;
+  border: none;
+}
+
+.logo {
+  top: 0;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.shop_desc {
+  width: 300px;
+  border: 2px rgb(96, 139, 168);
+  word-wrap:break-word;
+}
+
+.content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #c8daef;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-wallet {
+  background-color: #bfd2a4;
+  width: 200px;
+}
+
+.inventory-label {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 3%;
+}
+
+.display-inventory-row {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #c8a361;
+  position: relative;
+  margin-left: 18%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 70%;
+  height: 500px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  flex-wrap:wrap;
+  align-content:flex-start;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style:solid;
+}
+
+.inventory-box {
+  border: #000;
+  text-align: center;
+  position:relative;
+  margin-top:2%;
+  margin-left:2.5%;
+  margin-right: 1.5%;
+  height:20%;
+  min-width: 21%;
+  border:#00000028;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style:solid;
+  background-color: #b69457;
+}
+
+.list-group-item {
+  width: 500px;
+  background-color: rgba(52, 52, 52, 0);
+  border: 2px rgb(96, 139, 168);
+  word-wrap:break-word;
+}
+
+.shop-name-list {
+  font-weight: bold;
+}
+
+.rowflexbox {
+  background: rgba(52, 52, 52, 0);
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.shop-items-btn {
+  font-size: 20px;
+  background-color: rgba(52, 52, 52, 0);
+  border: none;
+  border-radius:2px;
+  background-color: #bfd2a4;
+  margin-bottom: 18px;
+}
+
+.add-shop-btn {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(52, 52, 52, 0);
+  display: block;
+}
+
+.reg-btn {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  border: none;
+  background-color: rgba(52, 52, 52, 0);
+  display: block;
+}
+
+.login-btn {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(52, 52, 52, 0);
+}
+
+.logout-btn {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  border: none;
+  background-color: rgba(52, 52, 52, 0);
+}
+
+.sidebar {
+  height: 100%;
+  width: 110px;
+  position:fixed;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #FFFFFF;
+}
+
+.guest-welcome {
+  font-size: 18px;
+  margin-left: 250px
+}
+
+.shop-buttons {
+  justify-content: right;
+  width: 300px;
+  border: 2px rgb(96, 139, 168);
+}
+
+.buy-modal {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.buy-btn {
+  width: 50px;
+  border: 2px rgb(96, 139, 168);
+  margin-left: 15px;
+}
+
+.item-name {
+  border: 2px rgb(96, 139, 168);
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

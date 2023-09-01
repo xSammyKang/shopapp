@@ -38,7 +38,7 @@ class Shop extends Component {
 
     async componentDidMount() {
         try {
-            const res = await fetch('http://localhost:8000/shops/', {
+            const res = await fetch('https://myapi-rnwm.onrender.com/shops/', {
                 mode: 'cors'            
             });
             const shop_state = await res.json();
@@ -52,7 +52,7 @@ class Shop extends Component {
                 user_inventory: JSON.parse(localStorage.getItem("user_inventory"))
             })
             
-            const res2 = await fetch('http://localhost:8000/users/', {
+            const res2 = await fetch('https://myapi-rnwm.onrender.com/users/', {
                 mode: 'cors'
             });
             const users_data = await res2.json()
@@ -100,7 +100,7 @@ class Shop extends Component {
         let total_cost = curr_state.selected_item_price * curr_state.selected_quantity
         if (this.state.user_funds >= total_cost){
           axios
-            .put(`http://localhost:8000/buy/${curr_state.selected_item_id}/`, {
+            .put(`https://myapi-rnwm.onrender.com/buy/${curr_state.selected_item_id}/`, {
               "id":curr_state.selected_item_id,
               "item_name": curr_state.selected_item_name,
               "available_quantity":curr_state.selected_quantity,
@@ -112,9 +112,9 @@ class Shop extends Component {
             })
             .then(() => {
               axios
-                .put(`http://localhost:8000/addfunds/${this.state.wallet_id}/`, 
+                .put(`https://myapi-rnwm.onrender.com/addfunds/${this.state.wallet_id}/`, 
                   {
-                    "user": `http://localhost:8000/users/${this.state.user_id}/`,
+                    "user": `https://myapi-rnwm.onrender.com/users/${this.state.user_id}/`,
                     "funds": -total_cost
                   }, {
                     headers: {
@@ -129,7 +129,7 @@ class Shop extends Component {
             })
             .then(() => {
               axios
-                .get(`http://localhost:8000/shops/`)
+                .get(`https://myapi-rnwm.onrender.com/shops/`)
                 .then(response => {
                   this.setState({all_shops:response.data.results})
                 })
@@ -140,7 +140,7 @@ class Shop extends Component {
     }
     updatePage = () => {
       axios
-        .get(`http://localhost:8000/users/${this.state.user_id}`)
+        .get(`https://myapi-rnwm.onrender.com/users/${this.state.user_id}`)
         .then(response => {
           localStorage.setItem("user_inventory", JSON.stringify(response.data.inventory))
           this.setState({user_inventory:response.data.inventory})
@@ -152,7 +152,7 @@ class Shop extends Component {
       
       if (user.username) {
         await axios
-          .post(`http://localhost:8000/token/login/`, {
+          .post(`https://myapi-rnwm.onrender.com/token/login/`, {
             "username": user.username,
             "password": user.password
           }, {
@@ -166,7 +166,7 @@ class Shop extends Component {
             localStorage.setItem("user_token", response.data.auth_token)
             this.setState({user_token: response.data.auth_token})
             axios
-              .get(`http://localhost:8000/auth/users/me/`, {
+              .get(`https://myapi-rnwm.onrender.com/auth/users/me/`, {
                 headers: {
                   "Authorization": `Token ${response.data.auth_token}`
                 }
@@ -176,7 +176,7 @@ class Shop extends Component {
                 localStorage.setItem("user_id", response.data.id)
                 this.setState({current_user: response.data.username, user_id: response.data.id}, () => {console.log(this.state.current_user)})
                 axios
-                  .get(`http://localhost:8000/users/${response.data.id}`)
+                  .get(`https://myapi-rnwm.onrender.com/users/${response.data.id}`)
                   .then(async response => {
                     console.log(response.data.wallet[0].funds)
                     localStorage.setItem("user_inventory", JSON.stringify(response.data.inventory))
@@ -195,12 +195,12 @@ class Shop extends Component {
       
       }
       axios
-        .post("http://localhost:8000/token/login/", user)
+        .post("https://myapi-rnwm.onrender.com/token/login/", user)
     };
 
     handleLogout = () => {
       axios
-        .post("http://localhost:8000/token/logout/", this.state.user_token, {
+        .post("https://myapi-rnwm.onrender.com/token/logout/", this.state.user_token, {
           headers: {
             "Content-Type": "application/json",
             "Authorization": `Token ${this.state.user_token}`
@@ -226,7 +226,7 @@ class Shop extends Component {
       this.toggle();
       if (shop.shop_name) {
         axios
-          .post(`http://localhost:8000/shops/`, {
+          .post(`https://myapi-rnwm.onrender.com/shops/`, {
             "shop_name": shop.shop_name,
             "est_date": shop.est_date,
             "description": shop.description
@@ -239,14 +239,14 @@ class Shop extends Component {
         return;  
       }
       axios
-        .post("http://localhost:8000/shops/", shop)
+        .post("https://myapi-rnwm.onrender.com/shops/", shop)
     };
 
     handleRegSubmit = user => {
       this.reg_toggle();
       if (user.username) {
         axios
-          .post(`http://localhost:8000/register/`, {
+          .post(`https://myapi-rnwm.onrender.com/register/`, {
             "username": user.username,
             "password": user.password,
             "password2": user.password2,
@@ -261,7 +261,7 @@ class Shop extends Component {
         )
         .then(async () => {
           await axios
-          .post(`http://localhost:8000/token/login/`, {
+          .post(`https://myapi-rnwm.onrender.com/token/login/`, {
             "username": user.username,
             "password": user.password
           }, {
@@ -275,7 +275,7 @@ class Shop extends Component {
             localStorage.setItem("user_token", response.data.auth_token)
             this.setState({user_token: response.data.auth_token})
             axios
-              .get(`http://localhost:8000/auth/users/me/`, {
+              .get(`https://myapi-rnwm.onrender.com/auth/users/me/`, {
                 headers: {
                   "Authorization": `Token ${response.data.auth_token}`
                 }
@@ -285,7 +285,7 @@ class Shop extends Component {
                 localStorage.setItem("user_id", response.data.id)
                 this.setState({current_user: response.data.username, user_id: response.data.id}, () => {console.log(this.state.current_user)})
                 axios
-                  .get(`http://localhost:8000/users/${response.data.id}`)
+                  .get(`https://myapi-rnwm.onrender.com/users/${response.data.id}`)
                   .then(async response => {
                     console.log(response.data.wallet[0].funds)
                     localStorage.setItem("user_inventory", JSON.stringify(response.data.inventory))
@@ -303,16 +303,16 @@ class Shop extends Component {
         return;  
       }
       axios
-        .post("http://localhost:8000/register/", user)
+        .post("https://myapi-rnwm.onrender.com/register/", user)
     };
 
     addFundsRandom = () => {
       let value = Math.floor(Math.random() * 100000)
       console.log(value)
       axios
-        .put(`http://localhost:8000/addfunds/${this.state.wallet_id}/`, 
+        .put(`https://myapi-rnwm.onrender.com/addfunds/${this.state.wallet_id}/`, 
           {
-            "user": `http://localhost:8000/users/${this.state.user_id}/`,
+            "user": `https://myapi-rnwm.onrender.com/users/${this.state.user_id}/`,
             "funds": value
           }, {
           headers: {

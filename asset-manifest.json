@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/shopapp/static/css/main.03868d43.css",
-    "main.js": "/shopapp/static/js/main.138a3b72.js",
+    "main.js": "/shopapp/static/js/main.cf0a7995.js",
     "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
     "static/media/Sword.png": "/shopapp/static/media/Sword.d5e57e2ad371b6ef5e25.png",
+    "static/media/shop_icon.png": "/shopapp/static/media/shop_icon.f8e0784ed04429d48209.png",
     "index.html": "/shopapp/index.html",
     "main.03868d43.css.map": "/shopapp/static/css/main.03868d43.css.map",
-    "main.138a3b72.js.map": "/shopapp/static/js/main.138a3b72.js.map",
+    "main.cf0a7995.js.map": "/shopapp/static/js/main.cf0a7995.js.map",
     "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03868d43.css",
-    "static/js/main.138a3b72.js"
+    "static/js/main.cf0a7995.js"
   ]
 }

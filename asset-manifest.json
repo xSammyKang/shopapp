@@ -1,21 +1,16 @@
 {
   "files": {
     "main.css": "/shopapp/static/css/main.03868d43.css",
-    "main.js": "/shopapp/static/js/main.e92193bd.js",
+    "main.js": "/shopapp/static/js/main.138a3b72.js",
     "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
-    "static/media/Chainmail.png": "/shopapp/static/media/Chainmail.2087021aaf1c3415ab20.png",
     "static/media/Sword.png": "/shopapp/static/media/Sword.d5e57e2ad371b6ef5e25.png",
-    "static/media/shop_icon.png": "/shopapp/static/media/shop_icon.f8e0784ed04429d48209.png",
-    "static/media/Helmet.png": "/shopapp/static/media/Helmet.cf830a6026a5ec705174.png",
-    "static/media/Bow.png": "/shopapp/static/media/Bow.70cd8295ad664fcc1c35.png",
-    "static/media/Spear.png": "/shopapp/static/media/Spear.db84e9deeb6ec7566cf2.png",
     "index.html": "/shopapp/index.html",
     "main.03868d43.css.map": "/shopapp/static/css/main.03868d43.css.map",
-    "main.e92193bd.js.map": "/shopapp/static/js/main.e92193bd.js.map",
+    "main.138a3b72.js.map": "/shopapp/static/js/main.138a3b72.js.map",
     "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03868d43.css",
-    "static/js/main.e92193bd.js"
+    "static/js/main.138a3b72.js"
   ]
 }

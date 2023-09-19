@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopapp/static/css/main.1f8bd263.css",
-    "main.js": "/shopapp/static/js/main.ac7cce07.js",
+    "main.css": "/shopapp/static/css/main.95b3b4c6.css",
+    "main.js": "/shopapp/static/js/main.ee255350.js",
     "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
     "static/media/hover-img.png": "/shopapp/static/media/hover-img.45f0a798989b3a6cd5bd.png",
     "static/media/top_logo.png": "/shopapp/static/media/top_logo.9afc76c68decba703897.png",
@@ -12,12 +12,12 @@
     "static/media/Helmet.png": "/shopapp/static/media/Helmet.cf830a6026a5ec705174.png",
     "static/media/Bow.png": "/shopapp/static/media/Bow.70cd8295ad664fcc1c35.png",
     "index.html": "/shopapp/index.html",
-    "main.1f8bd263.css.map": "/shopapp/static/css/main.1f8bd263.css.map",
-    "main.ac7cce07.js.map": "/shopapp/static/js/main.ac7cce07.js.map",
+    "main.95b3b4c6.css.map": "/shopapp/static/css/main.95b3b4c6.css.map",
+    "main.ee255350.js.map": "/shopapp/static/js/main.ee255350.js.map",
     "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8bd263.css",
-    "static/js/main.ac7cce07.js"
+    "static/css/main.95b3b4c6.css",
+    "static/js/main.ee255350.js"
   ]
 }

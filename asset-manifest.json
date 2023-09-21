@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/shopapp/static/css/main.95b3b4c6.css",
-    "main.js": "/shopapp/static/js/main.4e873cdb.js",
+    "main.js": "/shopapp/static/js/main.bdfc067a.js",
     "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
     "static/media/hover-img.png": "/shopapp/static/media/hover-img.45f0a798989b3a6cd5bd.png",
     "static/media/top_logo.png": "/shopapp/static/media/top_logo.9afc76c68decba703897.png",
+    "static/media/Shield.png": "/shopapp/static/media/Shield.d4aff7539133291f560c.png",
     "static/media/Chainmail.png": "/shopapp/static/media/Chainmail.35957206c00356136b68.png",
     "static/media/Sword.png": "/shopapp/static/media/Sword.9fb821b7c4f803adfd0b.png",
     "static/media/Spear.png": "/shopapp/static/media/Spear.47a15adf8acd12e8c2c2.png",
@@ -13,11 +14,11 @@
     "static/media/Helmet.png": "/shopapp/static/media/Helmet.cf830a6026a5ec705174.png",
     "index.html": "/shopapp/index.html",
     "main.95b3b4c6.css.map": "/shopapp/static/css/main.95b3b4c6.css.map",
-    "main.4e873cdb.js.map": "/shopapp/static/js/main.4e873cdb.js.map",
+    "main.bdfc067a.js.map": "/shopapp/static/js/main.bdfc067a.js.map",
     "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95b3b4c6.css",
-    "static/js/main.4e873cdb.js"
+    "static/js/main.bdfc067a.js"
   ]
 }

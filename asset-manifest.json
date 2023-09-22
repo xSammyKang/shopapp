@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/shopapp/static/css/main.cdde84ae.css",
-    "main.js": "/shopapp/static/js/main.f35f0175.js",
+    "main.js": "/shopapp/static/js/main.ba1ab063.js",
     "static/js/787.cda612ba.chunk.js": "/shopapp/static/js/787.cda612ba.chunk.js",
     "static/media/hover-img.png": "/shopapp/static/media/hover-img.45f0a798989b3a6cd5bd.png",
-    "static/media/top_logo.png": "/shopapp/static/media/top_logo.0db05333f91c926b2685.png",
+    "static/media/top_logo.png": "/shopapp/static/media/top_logo.c4f7f96555751f5c68e8.png",
     "static/media/Shield.png": "/shopapp/static/media/Shield.d4aff7539133291f560c.png",
     "static/media/Chainmail.png": "/shopapp/static/media/Chainmail.35957206c00356136b68.png",
     "static/media/Helmet.png": "/shopapp/static/media/Helmet.69c0fd1688bc85fbf2e6.png",
@@ -14,11 +14,11 @@
     "static/media/Bow.png": "/shopapp/static/media/Bow.c44cddc9dffc2e33f090.png",
     "index.html": "/shopapp/index.html",
     "main.cdde84ae.css.map": "/shopapp/static/css/main.cdde84ae.css.map",
-    "main.f35f0175.js.map": "/shopapp/static/js/main.f35f0175.js.map",
+    "main.ba1ab063.js.map": "/shopapp/static/js/main.ba1ab063.js.map",
     "787.cda612ba.chunk.js.map": "/shopapp/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdde84ae.css",
-    "static/js/main.f35f0175.js"
+    "static/js/main.ba1ab063.js"
   ]
 }
